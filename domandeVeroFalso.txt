@@ -38,7 +38,7 @@ F	Se a.equals(b) è falso, deve essere a.hashCode!=b.hashCode
 V	Se a.equals(b) è vero, deve essere a.hashCode()==b.hashCode()
 V	Se a.hashCode()!=b.hashCode(), a.equals(b) deve essere falso
 F	Se a.hashCode()==b.hashCode(), a.equals(b) deve essere vero
-V	Se B estende A la scrittura B a=new A(); genera errore a compile time
+F	Se B estende A la scrittura B a=new A(); genera errore a compile time
 F	Se di un metodo f faccio overloading non è detto che ci siano più “signatures” (firme) di metodi legate al nome f
 V	Se di un metodo f faccio overriding non è detto che ci siano più “signatures” (firme) di metodi legate al nome f
 F	Se una classe è astratta è permesso usarla per effettuare ereditarietà multipla
